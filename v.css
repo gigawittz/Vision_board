@@ -1,0 +1,76 @@
+.h1
+{
+
+font-size:350%;
+font-family: 'Brush Script MT', cursive;
+text-align:center;
+background-color:#c9e4ca;
+
+position: sticky;
+  top: 0;
+  padding: 10px 16px;
+}
+body
+{
+background-image: url("https://i.pinimg.com/236x/b8/a7/83/b8a783123d7948f6f3651dd1afdbf13a.jpg");
+text-align:left;
+background-color:#036666;
+}
+.dropbtn {
+font-family: 'Brush Script MT', cursive;
+
+  background-color: #bc8a5f;
+  color: white;
+  padding: 16px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.dropdown {
+text-align:center;
+  position: center;
+  display: inline-block;
+float: center;
+  margin-right: 150px;
+    
+}
+
+.dropdown-content {
+font-family: 'Brush Script MT', cursive;
+
+  display: none;
+  position: absolute;
+  background-color: #f5cb5c;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ffa69e}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #f5cb5c;
+}
+img
+{
+
+padding: 40px 25px;
+
+}
+main
+{
+text-align:left;
+}
